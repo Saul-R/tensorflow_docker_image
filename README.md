@@ -7,6 +7,6 @@ We had the extra requirement of `python3.6` also.
 
 ## Important versions:
 
-*. Python3.6
-*. CUDA 8.0
-*. cudNN6
+* Python3.6
+* CUDA 8.0
+* cudNN6
