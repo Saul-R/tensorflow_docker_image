@@ -1,4 +1,4 @@
-# Tensorflow on CentOS
+# Dockerized Tensorflow on CentOS
 
 This is a custom version of the tensorflow official image based on `nvidia/cuda:8.0-cudnn6-runtime-centos7`.
 
