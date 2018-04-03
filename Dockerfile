@@ -24,8 +24,8 @@ RUN yum install -y \
 && yum clean all \
 && rm -rf /var/cache/yum
  
-RUN pip install --no-cache-dir -U ipython pip setuptools
-RUN pip install --no-cache-dir tensorflow-gpu tensorflow
+RUN pip3.6 install --no-cache-dir -U ipython pip setuptools
+RUN pip3.6 install --no-cache-dir tensorflow-gpu tensorflow
  
 ENV LD_LIBRARY_PATH /usr/local/cuda-8.0/lib64:/usr/local/cuda/extras/CUPTI/lib64:$LD_LIBRARY_PATH
 ENV CUDA_HOME /usr/local/cuda-8.0
