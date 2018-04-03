@@ -24,8 +24,6 @@ RUN yum install -y \
 && yum clean all \
 && rm -rf /var/cache/yum
  
-RUN ln -s /usr/bin/pip3.6 /usr/bin/pip
-RUN rm /usr/bin/python && ln -s /usr/bin/python3.6 /usr/bin/python
 RUN pip install --no-cache-dir -U ipython pip setuptools
 RUN pip install --no-cache-dir tensorflow-gpu tensorflow
  
